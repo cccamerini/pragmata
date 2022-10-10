@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pragmata/static/css/main.1abd66e6.css",
+    "main.js": "/pragmata/static/js/main.a89ac549.js",
+    "static/media/uk.png": "/pragmata/static/media/uk.4be9f70a5e091ced2ae5.png",
+    "index.html": "/pragmata/index.html",
+    "static/media/getFetch.cjs": "/pragmata/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.1abd66e6.css.map": "/pragmata/static/css/main.1abd66e6.css.map",
+    "main.a89ac549.js.map": "/pragmata/static/js/main.a89ac549.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1abd66e6.css",
+    "static/js/main.a89ac549.js"
+  ]
+}
