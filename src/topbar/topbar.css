@@ -1,0 +1,14 @@
+.top {
+    padding: 10px; 
+    padding-top: 10px; 
+    padding-left: 10px; 
+    padding-bottom: 4px; 
+    border-bottom: 1px solid white; 
+    position: sticky;
+    color: white;
+}
+
+.a1 {
+    border: none;
+    width: 40px;
+}

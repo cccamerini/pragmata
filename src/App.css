@@ -13,6 +13,54 @@
   }
 }
 
+.alright {
+  text-align: right;
+  /* padding-right: 10px; */
+}
+
+.alleft {
+  text-align: left;
+  padding-left: 40px;
+  margin-left: 20px;
+}
+
+.alcenter {
+  text-align: center;
+}
+
+.flags {
+  width: 20px;
+  margin: 0;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.collapsible .content {
+  padding: 6px;
+  /* background-color: rgb(240, 240, 240); */
+  font-size: 14px;
+}
+.collapsible .header {
+  /* background-color: rgb(200, 200, 200); */
+  padding: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(220, 220, 220);
+}
+.collapsible .header .title {
+  font-weight: 400;
+}
+.preferences label {
+  display: block;
+  padding-bottom: 4px;
+}
+
+.fnt1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +70,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.main {
+  color: white;
+  text-align: left;
 }
 
 .App-link {
@@ -35,4 +88,64 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+}
+
+.breadcrumbs,
+.bc
+ {
+  display: flex;
+}
+
+/* .app {
+  flex-direction: column;
+} */
+
+.bc {
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.bc svg {
+  margin-right: 5px;
+  transition: opacity 0.2s linear;
+}
+
+.bc:last-child > svg {
+  opacity: 0;
+}
+
+.bc span {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  background: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.menu ul {
+  padding-left: 10px;
+}
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+}
+
+.crumb::before {
+  padding-left: 2px;
+  content: '> ';
 }
