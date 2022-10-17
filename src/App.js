@@ -74,14 +74,14 @@ function Page() {
 
 
       
-      <div className="col-md-2 content main fnt1 alleft">
+      <div className="col-md-1 content main fnt1 alleft">
        
       &bull;&nbsp;<a href="/">home</a>
       <br />
       &bull;&nbsp;<a href="/logic">{t('log')}</a>
       </div>
 
-      <div className="col-md-7 alcenter main fnt1 " >
+      <div className="col-md-8 alcenter main fnt1 " >
         <Router>
         <Breadcrumbs />
         {/* <Link to="/"></Link>*/}
