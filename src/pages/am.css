@@ -1,0 +1,28 @@
+canvas {
+    background-color: rgb(187, 182, 175);
+    height: 150;
+    width: 100;
+}
+
+.ln {
+   line-height: 50%; 
+}
+
+.am {
+    background-color: red;
+}
+
+.tst {
+    border: 1px solid silver;
+}
+
+.w160 {
+
+    width: 160; 
+}
+
+.ifr {
+    width: 1000px;
+    height: 500px;
+
+}

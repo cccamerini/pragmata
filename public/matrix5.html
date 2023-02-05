@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <title>Auto-associative Matrix 1.0</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" /> 
+    <!-- <script src="script2.js" ></script> -->
+    
+    <style>
+        
+    </style>
+</head>
+<body onload="init();" >
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Some text in the Modal..</p>
+        </div>
+      
+      </div>
+    <div class="float-child"  id="dvr">
+        <div class="brd">
+            <div>load</div>
+            <input class="btn btn-primary btn-sm btn50" style="margin-bottom: 4px;" type="button" onclick="img1('he2s.txt');" value="image 1">
+            <br />
+            <input class="btn btn-primary btn-sm btn50" type="button" onclick="img1('she2s.txt');" value="image 2">
+            <!-- <br>
+            <button id="myBtn">Open Modal</button> -->
+        </div>
+        <div class="brd">
+            <div>pre-process</div>
+            <input class="btn btn-primary btn-sm btn50" style="margin-bottom: 4px;" type="button" onclick="gray();" value="grayscale">
+            <br />
+            <input class="btn btn-primary btn-sm btn50" style="margin-bottom: 4px;" type="button" onclick="bw();" value="B&W">
+            <div class="slidecontainer">
+                <div>contrast: <span id="rngval"></span></div>
+                <input type="range" min="0" max="255" value="120" class="slider" id="rng">
+              </div>
+            <input class="btn btn-primary btn-sm btn50" style="margin-bottom: 4px;" type="button" onclick="noise();" value="noise 10%">
+        </div>
+        <div class="brd">
+            <div>memory</div>
+            <input class="btn btn-primary btn-sm btn50" style="margin-bottom: 4px;" type="button" onclick="window.setTimeout('mem()', 3);wait(); " value="memorise">
+            <br />
+            <input class="btn btn-primary btn-sm btn50" type="button" onclick="window.setTimeout('plot()', 3);wait(); " value="recall">
+        </div>
+        
+    </div>
+    <div  class="float-child" style="margin-top: 4px; ">
+        <div class="table" id="dvtb">
+
+        </div>
+    </div>
+   
+    <script src="scriptr.js" ></script>
+</body>
+</html>

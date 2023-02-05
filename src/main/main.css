@@ -1,0 +1,22 @@
+.nme {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 16pt;
+font-weight: bold;
+}
+.itl {
+ font-style: italic;
+}
+.fs12 {
+    font-size: 12pt;
+}
+.sp {
+    border-radius: 10%;
+    background-color:rgb(38, 141, 141);
+    padding: 5px;
+    font-size: 11pt;
+    margin: 5px;
+}
+
+.dvx {
+    padding-left: 8px;;
+}
