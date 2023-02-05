@@ -39,9 +39,11 @@ const { t, i18n } = useTranslation();
         {t('skilltechwri')}
       </div>
       <div className='dvx'>
-        {t('skilltrans')}
+        {t('drw')}
       </div>
-      
+      {/* <div className='dvx'>
+        {t('drw2')}
+      </div> */}
     </div>
     
     
