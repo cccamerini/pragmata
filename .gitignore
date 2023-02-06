@@ -11,6 +11,9 @@
 # production
 #/build
 
+# temp office files
+~.*
+
 # misc
 #.DS_Store
 .env.local
