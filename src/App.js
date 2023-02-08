@@ -127,16 +127,9 @@ function Page() {
         &nbsp;&nbsp;&bull;&nbsp;<a href="/tech1">{t('tech1.title')}</a>
         <br />
         <br />
-        {/* &bull;&nbsp;{t('drw')}
+        &nbsp;&nbsp;&bull;&nbsp;{t('genint')}
         <br />
-        &nbsp;&nbsp;&bull;&nbsp;<a href="/drw">1</a>
-        <br />
-        &nbsp;&nbsp;&bull;&nbsp;<a href="/drw2">2</a>
-        <br />
-        &nbsp;&nbsp;&bull;&nbsp;<a href="/drw3">3</a>
-        <br />
-        &nbsp;&nbsp;&bull;&nbsp;<a href="/drw4">4</a>
-        <br /> */}
+        &nbsp;&nbsp;&bull;&nbsp;<a href="/tech1">{t('mike.title')}</a>
       </div>
 
       <div className="col-md-8 alcenter main fnt1 " >

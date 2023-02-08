@@ -115,5 +115,14 @@
     "techa": "técnica",
     "by": "por",
     "expresp": "resposta esperada",
-    "drw": "arte erótica"
+    "autom": {
+      "title": "Memória Auto-Associativa",
+      "p1": "Memórias auto-associativas são aquelas de conteúdo endereçável, capazes de 'lembrar' uma sequencia armazenada quando apresentadas versões parciais ou corrompidas. São muito efetivas para removir ruído ou interferência nos dados.",
+      "p2": "Existem "
+
+    },
+    "genint": "interesse geral",
+    "mike": {
+      "title": "A Curiosa Estória de Mike, o Frango sem Cabeça"
+    }
   }

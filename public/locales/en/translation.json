@@ -116,5 +116,13 @@
     "techa": "technical",
     "by": "by",
     "expresp": "expected response",
-    "drw": "erotic art"
+    "drw": "erotic art",
+    "autom": {
+      "title": "Auto Associative Memory",
+      "p1": "Auto-associative memories are content based memories which can recall a stored sequence when they are presented with a partial or noisy version of it. They are very effective in de-noising or removing interference from the input."
+    },
+    "genint": "general interest",
+    "mike": {
+        "title": "The Curious Story of Mike, the Headless Chicken"
+      }
 }
