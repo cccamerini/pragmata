@@ -12,6 +12,10 @@ import Essay2 from './pages/essay2';
 import Essay3 from './pages/essay3';
 import Essay4 from './pages/essay4';
 import Tech1 from './pages/tech1';
+import Drw from './pages/drw';
+import Drw2 from './pages/drw2';
+import Drw3 from './pages/drw3';
+import Drw4 from './pages/drw4';
 import useCollapse from 'react-collapsed';
 // import Breadcrumbs from './Breadcrumbs';
 import {
@@ -121,6 +125,11 @@ function Page() {
         &nbsp;&nbsp;&bull;&nbsp;{t('techa')}
         <br />
         &nbsp;&nbsp;&bull;&nbsp;<a href="/tech1">{t('tech1.title')}</a>
+        <br />
+        <br />
+        &nbsp;&nbsp;&bull;&nbsp;{t('genint')}
+        <br />
+        &nbsp;&nbsp;&bull;&nbsp;<a href="/tech1">{t('mike.title')}</a>
       </div>
 
       <div className="col-md-8 alcenter main fnt1 " >
@@ -139,6 +148,10 @@ function Page() {
               <Route  path='/essay3' element={< Essay3 />}></Route>
               <Route  path='/essay4' element={< Essay4 />}></Route>
               <Route  path='/tech1' element={< Tech1 />}></Route>
+              <Route  path='/drw' element={< Drw />}></Route>
+              <Route  path='/drw2' element={< Drw2 />}></Route>
+              <Route  path='/drw3' element={< Drw3 />}></Route>
+              <Route  path='/drw4' element={< Drw4 />}></Route>
             </Routes> 
           </div>
       
