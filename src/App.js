@@ -16,6 +16,7 @@ import Drw from './pages/drw';
 import Drw2 from './pages/drw2';
 import Drw3 from './pages/drw3';
 import Drw4 from './pages/drw4';
+import Mike200 from './pages/mike200';
 import useCollapse from 'react-collapsed';
 // import Breadcrumbs from './Breadcrumbs';
 import {
@@ -96,8 +97,8 @@ function Page() {
 
 
       
-      <div className="col-md-3 content main fnt1 alleft">
-       
+      <div className="col-md-3 content main fnt1 alleft scrollbar">
+       <div className='force-overflow'>
         &bull;&nbsp;<a href="/">home</a>
         <br />
         <br />
@@ -129,7 +130,11 @@ function Page() {
         <br />
         &nbsp;&nbsp;&bull;&nbsp;{t('genint')}
         <br />
-        &nbsp;&nbsp;&bull;&nbsp;<a href="/tech1">{t('mike.title')}</a>
+        &nbsp;&nbsp;&bull;&nbsp;<a href="/mike200">{t('mike200.title')}</a>
+
+
+        
+        </div>
       </div>
 
       <div className="col-md-8 alcenter main fnt1 " >
@@ -152,6 +157,7 @@ function Page() {
               <Route  path='/drw2' element={< Drw2 />}></Route>
               <Route  path='/drw3' element={< Drw3 />}></Route>
               <Route  path='/drw4' element={< Drw4 />}></Route>
+              <Route  path='/mike200' element={< Mike200 />}></Route>
             </Routes> 
           </div>
       

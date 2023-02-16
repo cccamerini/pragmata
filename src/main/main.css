@@ -18,5 +18,20 @@ font-weight: bold;
 }
 
 .dvx {
-    padding-left: 8px;;
+    padding-left: 8px;
+    vertical-align: top;
+    text-align: top;
 }
+
+.tabp {
+    padding-left: 40px;
+    
+    
+}
+
+.tabt {
+    color: white;
+    width: 100px;
+    border: none;
+    display: table-cell;
+  }

@@ -24,6 +24,7 @@
     "acad": "academic",
     "words": "words",
     "rdtime": "reading time",
+    "sources": "Sources",
     "essay1": {
         "title": "On the Personal and Professional Formation Under the Light of Complexity",
         "stit": "An Essay",
@@ -117,12 +118,25 @@
     "by": "by",
     "expresp": "expected response",
     "drw": "erotic art",
+    "theory": "Theory",
     "autom": {
       "title": "Auto Associative Memory",
-      "p1": "Auto-associative memories are content based memories which can recall a stored sequence when they are presented with a partial or noisy version of it. They are very effective in de-noising or removing interference from the input."
+      "p1": "Auto-associative memories are content based memories which can recall a stored sequence when they are presented with a partial or noisy version of it. They are very effective in de-noising or removing interference from the input.",
+      "p2": "(a) The weight matrix in an autoassociative storage system for two patterns is generated through clipped Hebbian learning. To obtain the individual weight matrices for each pattern, the pattern is simply taken as the outer product of itself. The combined weight matrix is obtained by summing the individual matrices and limiting the entries to either 0 or 1.",
+      "p3": "(b) The pattern recall strategy involves multiplying the cue pattern with the weight matrix to produce a vector of weighted input sums. This vector is then thresholded to produce the recalled binary vector. In the case of a noiseless cue, a suitable threshold is simply equal to the number of active units in the cue pattern.",
+      "p4": "The Auto-associative memory model is thought to be supported by multiple brain regions, including the medial temporal lobe (MTL) and the neocortex. The MTL is composed of several structures, including the hippocampus and entorhinal cortex, which are thought to play a key role in the formation and retrieval of memories. The neocortex, on the other hand, is involved in the integration and processing of sensory information and is also thought to play a role in memory formation and recall.",
+      "p5": "According to a study published in the journal 'Nature Neuroscience' (Squire, L. R., & Alvarez, P. (1995), 'Retrograde amnesia and memory consolidation: A neurobiological perspective.'), the MTL is involved in the formation and storage of long-term memories, while the neocortex is involved in the processing and retrieval of those memories.",
+      "p6": "Another study published in the journal 'Trends in Cognitive Sciences' (Norman, K. A., & O'Reilly, R. C. (2003), 'Modeling hippocampal and neocortical contributions to recognition memory: A complementary-learning-system perspective.'), suggests that the MTL and neocortex work together in a complementary manner to support memory formation and recall, with the MTL serving as a temporary storage system and the neocortex serving as a permanent storage system.",
+      "p7": "According to Youssefi (Auto-associative Memory), the simplest version of auto-associative memory is linear associator which is a 2-layer feed-forward fully connected neural network where the output is constructed in a single feed-forward computation",
+      "p8": "The present implementation seeks to be even simpler: it will consist of a matrix of weights, obtained by first multiplying the input vector by itself. To memorise further images, their corresponding vectors are in turn summed to the weight matrix.",
+      "t1": "Implementation 1"
     },
     "genint": "general interest",
-    "mike": {
-        "title": "The Curious Story of Mike, the Headless Chicken"
+    "mike200": {
+        "title": "The Curious Story of Mike, the Headless Chicken",
+        "p1": "Mike the Headless Chicken is a famous story about a rooster who lived in Fruita, Colorado, in the 1940s. The story goes that in September 1945, farmer Lloyd Olsen was preparing to slaughter one of his roosters for dinner when he missed the bird's neck and only severed its head. To his surprise, the bird did not die immediately, and continued to walk, run, peck at food, and even crow for 18 months without a head.",
+        "p2": "Olsen began exhibiting Mike at fairs and carnivals, charging people to see the headless rooster. Mike's fame soon spread, and he became a nationwide sensation, appearing in newspapers and magazines across the country.",
+        "p3": "The exact reason for Mike's remarkable survival is not clear, but it is believed that his brainstem and other key functions were not damaged in the beheading, allowing him to live without a head. Mike eventually died in March 1947, when he choked on a kernel of corn.",
+        "p4": "The story of Mike the Headless Chicken has become a folk legend, and the city of Fruita now holds an annual Mike the Headless Chicken Festival to celebrate the bird's legacy."
       }
 }
