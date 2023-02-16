@@ -1,21 +1,65 @@
 import React from 'react'
 // import ScriptTag from 'react-script-tag';
 import { useTranslation, withTranslation, Trans } from 'react-i18next';
+import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
 
 import './am.css';
 import '../bootstrap.min.css';
 import '../App.css';
+import '../main//main.css';
 
 export default function Amtr() {
     // const matrjs = props => (
         // <ScriptTag type="text/javascript" src="./matr.js" />
         // )
+    const { t, i18n } = useTranslation();
     return (
     
         <>
         {/* <ScriptTag type="text/javascript" src="matr.js" /> */}
+        <h3>{t('autom.title')}</h3>
+        <Tabs defaultIndex={0} onSelect={(index) => {var tbs = document.getElementsByClassName('tabt'); for (var i=0; i< tbs.length; i++) {if (i==index) { tbs[i].classList.add('fntbold'); tbs[i].classList.remove('fntnormal');} else {tbs[i].classList.add('fntnormal'); tbs[i].classList.remove('fntbold');} }}}>
+      <TabList className="table">
+        <Tab className=" tabt fntbold">{t('theory')}</Tab>
+        <Tab className=" tabt">{t('autom.t1')}</Tab>
+      </TabList>
+      <TabPanel className="tabp">
+        <div className='dvx'>
+          {t('autom.p1')}
+        </div>
+        <div className='dvx'>
+          {t('autom.p4')}
+        </div>
+        <div className='dvx'>
+          {t('autom.p7')}
+        </div>
+        <div className='dvx'>
+          {t('autom.p8')}
+        </div>
+        <div className='dvx'></div>
+            <img src={require("../img/automA.png")} style={{width: 600}} alt="" /><br /><br />
+            <div className='td'> <img src={require("../img/automB.png")} style={{width: 350}} alt="" /></div>
+            <div className='td dvx'><span>{t('autom.p2')}<br />{t('autom.p3')}</span></div>
+           
+    
+       {/*  <div className='dvx'>
+          {t('skilldatasc')}
+        </div> */}
+      </TabPanel>
+      <TabPanel className="tabp">
+        <iframe src="matrix5.html" id="ifr1" className='ifr'></iframe> 
+      </TabPanel>
+      </Tabs>
+      <br />
+
         <div></div>
-        <div className='table'>
+        <div className=' dispnone'>
+        
+            <div className='tr'>
+                <div className=' dvx'>
+                 
+                </div>
+            </div>
             <div className='tr'>
                 <div className='td w160'  >
                 <canvas id="mainc" className='canvas' />
@@ -42,14 +86,14 @@ export default function Amtr() {
             </div>
             
         </div>
-        <iframe src="matrix5.html" id="ifr1" className='ifr'></iframe>   
+          
         </>
     )
 
     // window.addEventListener('load', this.init());
     const cnv = document.getElementById('mainc');
     const ctx = cnv.getContext("2d");
-    const { t, i18n } = useTranslation();
+    // const { t, i18n } = useTranslation();
     
     const img = new Image();    
     var jimg;
