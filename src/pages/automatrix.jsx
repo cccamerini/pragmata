@@ -22,6 +22,7 @@ export default function Amtr() {
       <TabList className="table">
         <Tab className=" tabt fntbold">{t('theory')}</Tab>
         <Tab className=" tabt">{t('autom.t1')}</Tab>
+        <Tab className=" tabt">{t('autom.t2')}</Tab>
       </TabList>
       <TabPanel className="tabp">
         <div className='dvx'>
@@ -49,11 +50,8 @@ export default function Amtr() {
       <TabPanel className="tabp">
         <iframe src="matrix5.html" id="ifr1" className='ifr'></iframe> 
       </TabPanel>
-      </Tabs>
-      <br />
-
-        <div></div>
-        <div className=' dispnone'>
+      <TabPanel className="tabp">
+          <div className=' table'>
         
             <div className='tr'>
                 <div className=' dvx'>
@@ -86,6 +84,12 @@ export default function Amtr() {
             </div>
             
         </div>
+      </TabPanel>
+      </Tabs>
+      <br />
+
+        <div></div>
+        
           
         </>
     )
@@ -306,9 +310,12 @@ function mtx1xm(v1, m1) {
     let v = [];
     let c = 0;
     for (var i = 0; i < data.length; i+=4) {
+        
         v[c] = data[i];
         c++;
+        
     }
+    console.log(v);
     let v2 = mtx1xm(v, m);
     console.log(v2);
     c = 0;

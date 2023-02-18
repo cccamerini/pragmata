@@ -21,17 +21,27 @@ font-weight: bold;
     padding-left: 8px;
     vertical-align: top;
     text-align: top;
+   
 }
 
 .tabp {
     padding-left: 40px;
-    
+    /* border: 1px solid silver; */
+    margin-left: 30px;
     
 }
 
 .tabt {
     color: white;
-    width: 100px;
-    border: none;
+    width: 200px;
+    border-top: 1px solid silver;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    border-radius: 5px;
     display: table-cell;
+    text-align: center;
+  }
+
+  .table1 {
+    display: table;
   }

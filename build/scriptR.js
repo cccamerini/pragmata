@@ -156,7 +156,7 @@ function gray() {
       }
 
       let v2 = mtx1xm(v, m);
-      
+      console.log(v2);
       grid(v2);
     
       nwait();

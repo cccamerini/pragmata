@@ -24,6 +24,10 @@
     "acad": "acadêmica",
     "words": "palavras",
     "rdtime": " de leitura",
+    "sources": "Fontes",
+    "projs": "Projetos",
+    "wrkh": "Histórico de Trabalho",
+    "form": "Formação Acadêmica",
     "essay1": {
       "title": "Da Formação Pessoal e Profissional a Partir da Perspectiva da Complexidade",
       "stit": "Um ensaio",
@@ -115,14 +119,40 @@
     "techa": "técnica",
     "by": "por",
     "expresp": "resposta esperada",
+    "drw": "erotic art",
+    "theory": "Teoria",
     "autom": {
       "title": "Memória Auto-Associativa",
       "p1": "Memórias auto-associativas são aquelas de conteúdo endereçável, capazes de 'lembrar' uma sequencia armazenada quando apresentadas versões parciais ou corrompidas. São muito efetivas para removir ruído ou interferência nos dados.",
-      "p2": "Existem "
-
+      "p2": "(a) The weight matrix in an autoassociative storage system for two patterns is generated through clipped Hebbian learning. To obtain the individual weight matrices for each pattern, the pattern is simply taken as the outer product of itself. The combined weight matrix is obtained by summing the individual matrices and limiting the entries to either 0 or 1.",
+      "p3": "(b) The pattern recall strategy involves multiplying the cue pattern with the weight matrix to produce a vector of weighted input sums. This vector is then thresholded to produce the recalled binary vector. In the case of a noiseless cue, a suitable threshold is simply equal to the number of active units in the cue pattern.",
+      "p4": "The Auto-associative memory model is thought to be supported by multiple brain regions, including the medial temporal lobe (MTL) and the neocortex. The MTL is composed of several structures, including the hippocampus and entorhinal cortex, which are thought to play a key role in the formation and retrieval of memories. The neocortex, on the other hand, is involved in the integration and processing of sensory information and is also thought to play a role in memory formation and recall.",
+      "p5": "According to a study published in the journal 'Nature Neuroscience' (Squire, L. R., & Alvarez, P. (1995), 'Retrograde amnesia and memory consolidation: A neurobiological perspective.'), the MTL is involved in the formation and storage of long-term memories, while the neocortex is involved in the processing and retrieval of those memories.",
+      "p6": "Another study published in the journal 'Trends in Cognitive Sciences' (Norman, K. A., & O'Reilly, R. C. (2003), 'Modeling hippocampal and neocortical contributions to recognition memory: A complementary-learning-system perspective.'), suggests that the MTL and neocortex work together in a complementary manner to support memory formation and recall, with the MTL serving as a temporary storage system and the neocortex serving as a permanent storage system.",
+      "p7": "According to Youssefi (Auto-associative Memory), the simplest version of auto-associative memory is linear associator which is a 2-layer feed-forward fully connected neural network where the output is constructed in a single feed-forward computation",
+      "p8": "The present implementation seeks to be even simpler: it will consist of a matrix of weights, obtained by first multiplying the input vector by itself (transposed). To memorise further images, their corresponding vectors are in turn summed to the weight matrix.",
+      "t1": "Implementação 1",
+      "t2": "Implementação 2"
     },
+
     "genint": "interesse geral",
-    "mike": {
-      "title": "A Curiosa Estória de Mike, o Frango sem Cabeça"
+    "mike200": {
+      "title": "A Curiosa Estória de Mike, o Frango Sem Cabeça",
+      "p1": "Mike, o Frango Sem Cabeça é uma famosa estória sobre um galo que viveu em Fruita, Colorado, nos anos 1940. Segundo consta. em setembro de 1945, o fazendeiro Lloyd Olsen estava se preparando para matar um dos seus galos para o jantar quando ele errou o pescoço da ave e não decepou sua cabeça inteiramente. Para sua surpresa, Mike não morreu imediatamente e continuou a andar, correr, beliscar comida e até cantar por 18 meses sem uma cabeça.",
+      "p2": "Olsen começou a exibir Mike em feiras e carnavais, cobrando das pessoas para ver o frango sem cabeça. A fama de Mike rapidamente se espalhou e ele se tornou uma sensação nacional, aparecendo em jornais e revistas em todo o país.",
+      "p3": "A razão exata para a sobrevivência surpreendente de Mike não é clara, mas acredita-se que seu tronco cerebral e outras funções-chave não foram danificadas na decapitação, permitindo-lhe viver sem uma cabeça. Mike eventualmente morreu em março de 1947, quando engasgou-se com um grão de milho.",
+      "p4": "Sua estória tornou-se uma lenda popular, e a cidade de Fruita agora realiza um Festival de Mike, o Frango Sem Cabeça, anualmente para celebrar o seu legado."
+    },
+    "mike500": {
+      "p1": "On a fine day in September, 1945, farmer Lloyd Olsen, of Fruita, Colorado, was expecting his wife's mother for a customary family supper. But that day would turn out to have nothing customary about it. Aware of his mother in law's predilection for the fried neck, Olsen tried to spare as much of it as possible when slaughtering the chosen five-and-half-month old rooster, dubbed Mike.",
+      "p2": "A clean decapitation is supposed to sever both common carotid arteries and both external jugular veins, which Olsen likely failed to achieve, leaving most of Mike's brain stem and one ear intact and attached to the spinal cord.",
+      "p3": "The following morning found Mike alive an well, carrying on with his chicken business as normally – as possible, given the circumstances. Olsen decided to look after Mike, feeding him with an eydropper and eventually, with the help of local businessman Hope Wade, took him to the University of Salt Lake City, Utah,where scientists reportedly believed he surivived due to a blood clot that stemmed the bleeding, coupled with an intact brain stem – responsible for for basic reflexes -, windpipe and throat.",
+      "p4": "Once adjusted to his new center of mass, Mike could climb to the highest perches with confidence.",
+      "p5": "'Maybe Mike doesn't even know his head is off', Wade told reporters.",
+      "p6": "His attempts at crowing, however, remained just that: all he could muster were gurgling sounds, accompanied by clumsy attempts to preen his feathers and peck for food with his missing head.",
+      "p7": "Olsen and Wade, with an eye for an opportunity, started promoting the bird's story, which soon reached national fame, after tours with carnivals  and sideshows, where people would pay 20 cents to witness Miracle Mike. He even earned a Life magazine feature and an entry on the Guinness Book of Records.",
+      "p8": "At the end of a tour southeast of the country, Mike's worth was estimated at $ 10,000. He received letters from around the country, and not all of it was fan mail. Some people even likened the Olsens to the Nazi.",
+      "p9": "In 2014, Dr. Wayne J. Kuenzel, a poultry physiologist and neurobiologist at the University of Arkansas, spoke to Modern Farmer regarding the incredible survival. According to Kuenzel, the cerebellum and brain stem, both located at the bottom of a chicken's brain, control critical functions such as breathing and motor skills. Despite having his head severed, Mike managed to survive due to the preservation of these vital areas.",
+      "p10": "A number of beheadings ensued Mike's success, in an attempt to to replicate the phenomenon, but all the victims died within a few days – whereas Mike not only survived for 18 months without a head, but went from two and a half pounds at the time of the incident to nearly eight pounds when he expired, having choked due to an obstruction in his windpipe. The story has inspired an annual festival, beginning in 1999, and a documentary called 'Chick Filck: The Miracle Mike Story'."
     }
   }

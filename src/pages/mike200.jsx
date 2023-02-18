@@ -11,7 +11,7 @@ export default function Mike200() {
     return (
         <>
             <h2>{t('mike200.title')}</h2>
-            <h6></h6>
+            <h4>{t('by')}<img className='a1' src={require("../img/name.gif")} style={{ width: 190 }} alt="" /></h4>
             <h6>10/02/2023&nbsp;<span className='padright20'>~200 {t('words')}</span><img className='a1' src={require("../img/5min2.gif")} style={{ width: 20 }} alt="" /> <span className='padright20'>1,5min {t('rdtime')}</span></h6>
             <hr></hr>
             <p>{t('mike200.p1')}</p>

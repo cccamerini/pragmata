@@ -16,13 +16,14 @@ const { t, i18n } = useTranslation();
     <div className='nme'>Christian Camerini &nbsp;<span className='fs12'>BEng<span className='itl'> (Hons)</span> University of Greenwich, 2004</span></div>
     {/* <span className='sp'>{t('skilleng')}</span><span className='sp'>{t('skillfstack')}</span> */}
     <div>
-    <Tabs defaultIndex={0} onSelect={(index) => {var tbs = document.getElementsByClassName('tabt'); for (var i=0; i< tbs.length; i++) {if (i==index) { tbs[i].classList.add('fntbold'); tbs[i].classList.remove('fntnormal');} else {tbs[i].classList.add('fntnormal'); tbs[i].classList.remove('fntbold');} }}}>
-      <TabList className="table">
+    <Tabs defaultIndex={0} onSelect={(index) => {return;var tbs = document.getElementsByClassName('tabt'); for (var i=0; i< tbs.length; i++) {if (i==index) { tbs[i].classList.add('fntbold'); tbs[i].classList.remove('fntnormal');} else {tbs[i].classList.add('fntnormal'); tbs[i].classList.remove('fntbold');} }}}>
+      <TabList className="table1">
         <Tab className=" tabt fntbold">{t('skillset')}</Tab>
-        <Tab className=" tabt">ss</Tab>
+        <Tab className=" tabt">{t('projs')}</Tab>
+        <Tab className=" tabt">{t('wrkh')}</Tab>
+        <Tab className=" tabt">{t('form')}</Tab>
       </TabList>
       <TabPanel className="tabp">
-        
         <div className='dvx'>
           {t('skilleng')}
         </div>

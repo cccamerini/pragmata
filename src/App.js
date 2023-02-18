@@ -17,6 +17,7 @@ import Drw2 from './pages/drw2';
 import Drw3 from './pages/drw3';
 import Drw4 from './pages/drw4';
 import Mike200 from './pages/mike200';
+import Mike500 from './pages/mike500';
 import useCollapse from 'react-collapsed';
 // import Breadcrumbs from './Breadcrumbs';
 import {
@@ -130,7 +131,11 @@ function Page() {
         <br />
         &nbsp;&nbsp;&bull;&nbsp;{t('genint')}
         <br />
-        &nbsp;&nbsp;&bull;&nbsp;<a href="/mike200">{t('mike200.title')}</a>
+        &nbsp;&nbsp;&nbsp;&bull;&nbsp;{t('mike200.title')}
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;<a href="/mike200">200&nbsp;{t('words')}</a>
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&bull;&nbsp;<a href="/mike500">500&nbsp;{t('words')}</a>
 
 
         
@@ -158,6 +163,7 @@ function Page() {
               <Route  path='/drw3' element={< Drw3 />}></Route>
               <Route  path='/drw4' element={< Drw4 />}></Route>
               <Route  path='/mike200' element={< Mike200 />}></Route>
+              <Route  path='/mike500' element={< Mike500 />}></Route>
             </Routes> 
           </div>
       
